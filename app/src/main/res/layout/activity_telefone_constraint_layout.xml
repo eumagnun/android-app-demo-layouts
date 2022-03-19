@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelefoneConstraintLayoutActivity">
+
+
+    <TextView
+        android:id="@+id/tvBotaoVisor"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="#E4E1E1"
+        android:text="11 945785326"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBotao1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBotaoVisor" />
+
+    <TextView
+        android:id="@+id/tvBotao2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao3"
+        app:layout_constraintStart_toEndOf="@id/tvBotao1"
+        app:layout_constraintTop_toBottomOf="@id/tvBotaoVisor" />
+
+    <TextView
+        android:id="@+id/tvBotao3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvBotao2"
+        app:layout_constraintTop_toBottomOf="@id/tvBotaoVisor" />
+
+    <TextView
+        android:id="@+id/tvBotao4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao1" />
+
+    <TextView
+        android:id="@+id/tvBotao5"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao6"
+        app:layout_constraintStart_toEndOf="@id/tvBotao4"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao2"/>
+
+    <TextView
+        android:id="@+id/tvBotao6"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvBotao5"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao3"/>
+
+    <TextView
+        android:id="@+id/tvBotao7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao4"/>
+
+    <TextView
+        android:id="@+id/tvBotao8"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao9"
+        app:layout_constraintStart_toEndOf="@id/tvBotao7"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao5"/>
+
+    <TextView
+        android:id="@+id/tvBotao9"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="9"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvBotao8"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao6"/>
+
+    <TextView
+        android:id="@+id/tvBotaoEstrela"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="*"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotao0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao7"/>
+
+    <TextView
+        android:id="@+id/tvBotao0"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@id/tvBotaoQuadrado"
+        app:layout_constraintStart_toEndOf="@id/tvBotaoEstrela"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao8"/>
+
+    <TextView
+        android:id="@+id/tvBotaoQuadrado"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#CC2453"
+        android:gravity="center"
+        android:text="#"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvBotao0"
+        app:layout_constraintTop_toBottomOf="@id/tvBotao9"/>
+
+    <Button
+        android:id="@+id/tvBotaoLigar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ligar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBotaoEstrela"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
